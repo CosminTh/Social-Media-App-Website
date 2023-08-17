@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+  background: gray
+    url("https://crossfitzonex.com/wp-content/uploads/2013/07/on-sunset-beach-summer-party-wallpapers-1920x1200.jpg");
+    background-size: cover;
+    height: 35rem;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-left: 12rem;
+    margin-top: 3rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 2rem 5rem 1.2rem;
+}
+
+header h1 span {
+    text-transform: uppercase;
+    display: block;
+    font-size: 3rem;
+    position: relative;
+    z-index: 1;
+}
+
+header h1 span::before {
+    content: ' ';
+    position: absolute;
+    width: 9rem;
+    background-color: teal;
+    height: 1.5rem;
+    bottom: 0;
+    z-index: -1;
+}
+
+header .headerDescription {
+    font-weight: bold;
+    max-width: 45rem;
+    margin: 0 5rem 3rem;
+}
+
+.formContainer {
+    background-color: white;
+    font-weight: bold;
+    padding: 2rem;
+    max-width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem #888;
+}
+
+.formContainer label {
+    color: teal;
+}
+
+.formContainer p {
+    color: gray;
+}
+
+.formContainer form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formContainer input[type="text"] {
+    border: 1px solid darkgray;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+.formContainer input[type="button"] {
+    background-color: orange;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    padding: 1rem 0;
+    width: 30%;
+    font-size: 1.3rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+.formContainer input[type="button"]:hover {
+    opacity: 0.8;
+}
+
+.callToAction {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+
+.callToAction .callToActionMessage {
+    padding: 5rem;
+    text-align: center;
+}
+
+.callToAction .callToActionMessage h2 {
+    text-transform: uppercase;
+    position: relative;
+}
+
+.callToAction .callToActionMessage h2::before {
+    content: ' ';
+    position: absolute;
+    width: 9rem;
+    background-color: teal;
+    height: 0.8rem;
+    bottom: 0;
+    z-index: -1;
+    left: 15rem;
+}
+
+.callToAction .callToActionMessage p {
+    font-size: 1.3rem;
+}
+
+.callToAction img {
+    border-radius: 5rem;
+    padding: 2rem;
+}

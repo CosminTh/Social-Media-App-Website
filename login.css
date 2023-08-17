@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/session11/assets/images/loginBackground.png');
+}
+
+.formContainer {
+    margin: 3rem auto;
+    width: 95%;
+    max-width: 30rem;
+    border-radius: 0.5rem;
+    background-color: teal;
+    box-shadow: 0 1px 4px #888;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formField {
+    margin-bottom: 0.5rem;
+}
+
+.formField input {
+    background-color: lightblue;
+    color: purple;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.rememberUserField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formField.rememberUserField input {
+    width: 10%;
+}
+
+.formField.rememberUserField label {
+    width: 90%;
+    text-align: left;
+}
+
+.loginButton {
+    background-color: cadetblue;
+    border: 1px solid white;
+    padding: 0.5rem 2.5rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.loginButton:hover {
+    background-color: lightblue;
+    border: cadetblue;
+}
+
+a strong {
+    color: #c8c8ff;
+}
+
+.registerButton {
+    background-color: rgb(0, 247, 255);
+    border: 1px solid white;
+    padding: 0.5rem 2.5rem;
+    border-radius: 0.5rem;
+    width: 75%;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.registerButton:hover {
+    opacity: 0.8;
+}
